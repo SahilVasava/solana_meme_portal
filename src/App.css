@@ -65,6 +65,28 @@
   margin-left: 10px;
 }
 
+.button-group {
+  margin-bottom: 12px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.upvote-gif-button {
+  background-color: grey;
+}
+
+.upvote-gif-button-active {
+  background-color: green;
+}
+
+.downvote-gif-button {
+  background-color: grey;
+}
+
+.downvote-gif-button-active {
+  background-color: red;
+}
+
 .footer-container {
   display: flex;
   justify-content: center;
@@ -102,6 +124,12 @@
   position: relative;
   justify-self: center;
   align-self: center;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.gif-grid .gif-item-info {
+  padding: 1em;
 }
 
 .gif-item img {
